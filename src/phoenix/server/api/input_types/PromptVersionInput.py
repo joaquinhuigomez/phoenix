@@ -259,7 +259,7 @@ class ChatPromptVersionInput:
 
     def to_orm_prompt_version(
         self,
-        user_id: Optional[int],
+        user_id: int | None = None,
     ) -> models.PromptVersion:
         model_provider = self.model_provider.to_model_provider()
 
