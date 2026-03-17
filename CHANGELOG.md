@@ -1,5 +1,38 @@
 # Changelog
 
+## [13.16.0](https://github.com/Arize-ai/phoenix/compare/arize-phoenix-v13.15.0...arize-phoenix-v13.16.0) (2026-03-17)
+
+
+### Features
+
+* Add backend skill ([#12117](https://github.com/Arize-ai/phoenix/issues/12117)) ([cc8de3b](https://github.com/Arize-ai/phoenix/commit/cc8de3b9d23a2579f50f9c76e20efeb7adf432c7))
+* add configurable package manager preference per language ([#12140](https://github.com/Arize-ai/phoenix/issues/12140)) ([bf35656](https://github.com/Arize-ai/phoenix/commit/bf35656c7b548c058467e6bef2f486ea1c83dfcf))
+* add copy name/ID action menu to nav breadcrumbs ([#12150](https://github.com/Arize-ai/phoenix/issues/12150)) ([bc3ae84](https://github.com/Arize-ai/phoenix/commit/bc3ae84da81bd8e15cebea8f39efed4bf3b24d6b))
+* add integration snippets to tracing onboarding page ([#12109](https://github.com/Arize-ai/phoenix/issues/12109)) ([af36e2c](https://github.com/Arize-ai/phoenix/commit/af36e2cdd0d923cd39a27249173d2055fe21cc89))
+* Add TypeScript onboarding snippets for LangChain, OpenAI, Anthropic, and Mastra ([#12186](https://github.com/Arize-ai/phoenix/issues/12186)) ([6d4e8d7](https://github.com/Arize-ai/phoenix/commit/6d4e8d7e863291cc60ceca7704d5588ddbfdead1))
+* agent context and side-bar ([#12181](https://github.com/Arize-ai/phoenix/issues/12181)) ([daa94db](https://github.com/Arize-ai/phoenix/commit/daa94db742f1afd1242598d56b4ca8a49fbaf8be))
+* Figma MCP and storybook skills ([#11510](https://github.com/Arize-ai/phoenix/issues/11510)) ([c65c6fb](https://github.com/Arize-ai/phoenix/commit/c65c6fbfa384d6c84dc2b0f9ac54f09d04f70063))
+* **onboarding:** add Python integration snippets ([#12197](https://github.com/Arize-ai/phoenix/issues/12197)) ([42a7a1b](https://github.com/Arize-ai/phoenix/commit/42a7a1b2920580f4dbd3182df88575b277fe2b02))
+* **playground:** canonical hub-and-spoke tool choice and response format ([#12108](https://github.com/Arize-ai/phoenix/issues/12108)) ([b38a838](https://github.com/Arize-ai/phoenix/commit/b38a83812f3d0c1052669130053078c3e2d37a1e))
+* tracing onboarding UI refinements ([#12177](https://github.com/Arize-ai/phoenix/issues/12177)) ([ff36b53](https://github.com/Arize-ai/phoenix/commit/ff36b53601259a5d51b85ffaad017d513908bfec))
+* **ui:** add collapse top-level keys toggle for dataset upload ([#12058](https://github.com/Arize-ai/phoenix/issues/12058)) ([8f7c7d5](https://github.com/Arize-ai/phoenix/commit/8f7c7d594b7ff4b20ddfe6e605652db06a0a87a0))
+* **ui:** add Shimmer component for AI loading states ([#12126](https://github.com/Arize-ai/phoenix/issues/12126)) ([0cb2548](https://github.com/Arize-ai/phoenix/commit/0cb2548ff9ddd93ae2059e07f1a4f1442d8a5b06))
+
+
+### Bug Fixes
+
+* **deps:** update arize-phoenix-client to 2.0.1 ([#12153](https://github.com/Arize-ai/phoenix/issues/12153)) ([a5fb8b1](https://github.com/Arize-ai/phoenix/commit/a5fb8b1e4c7ad4db71f23b77bd71df70512661a9))
+* fix link to server evals docs ([#12138](https://github.com/Arize-ai/phoenix/issues/12138)) ([3edc9cb](https://github.com/Arize-ai/phoenix/commit/3edc9cb50884aeaa9b72f4a2f717c215a202ab8e))
+* migrate llms.txt to standard llmstxt.org format ([#12189](https://github.com/Arize-ai/phoenix/issues/12189)) ([d320b93](https://github.com/Arize-ai/phoenix/commit/d320b93eb23410505a02cebea68925c1c712612a))
+* **playground:** require tool parameters, normalize empty schema, show tool_choice in UI ([#12185](https://github.com/Arize-ai/phoenix/issues/12185)) ([c625262](https://github.com/Arize-ai/phoenix/commit/c62526293fe3d0f4b958a2aaea30e06bd9605e47))
+
+
+### Documentation
+
+* **cli:** add changeset, README, and skill docs for `px docs fetch` ([#12162](https://github.com/Arize-ai/phoenix/issues/12162)) ([c0836c3](https://github.com/Arize-ai/phoenix/commit/c0836c31e463912eb0e628f836bb9d09161161f9))
+* refine llms.txt: expand coverage, drop integrations, optimize conciseness ([#12191](https://github.com/Arize-ai/phoenix/issues/12191)) ([565041c](https://github.com/Arize-ai/phoenix/commit/565041c17d5a2027fe796d2f84c44e39af0948a3))
+* rewrite CONTRIBUTING.md to set clear contribution expectations ([#12184](https://github.com/Arize-ai/phoenix/issues/12184)) ([80ef394](https://github.com/Arize-ai/phoenix/commit/80ef3943956d6fb6a29ad7f20cdbc69025002215))
+
 ## [13.15.0](https://github.com/Arize-ai/phoenix/compare/arize-phoenix-v13.14.0...arize-phoenix-v13.15.0) (2026-03-13)
 
 
